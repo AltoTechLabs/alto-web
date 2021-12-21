@@ -1,181 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <head>
+      <meta
+        name="description"
+        content="En Alto Labs nos dedicamos a apoyar a las empresas a alcanzar sus objetivos de negocio a través de la innovación en los procesos por medio del diseño, desarrollo e implementación de soluciones digitales (SW) de alto impacto."
+      />
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/libs/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="style.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <title>Alto Tech Labs</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav-container">
-            <span class="brand">
-                <img src="assets/img/altolabs-logo.png" alt="Alto Tech Labs">
-            </span>
-            <div class="nav-items">
-                <a href="#about">SOMOS</a>
-                <a href="#experience">EXPERIENCIA</a>
-                <a href="#team">TEAM</a>
-                <a href="#method">MÉTODO</a>
-                <a href="#contact">CONTACTO</a>
-            </div>
-  
+      <div class="nav-container">
+        <span class="brand">
+          <picture>
+            <source
+              alt="alto-logo"
+              class="lazyload"
+              data-srcset="assets/img/altolabs-logo.webp"
+              type="image/webp"
+            />
             <img
-                alt="hamburguer-icon-menu"
-                class="menu-icon"
-                src="assets/icons/menu_black_24dp.svg"
-                />
+              alt="alto-logo"
+              class="lazyload"
+              data-src="assets/img/altolabs-logo.png"
+              type="image/png"
+            />
+          </picture>
+        </span>
+        <div class="nav-items">
+          <a href="#about">SOMOS</a>
+          <a href="#experience">EXPERIENCIA</a>
+          <a href="#team">TEAM</a>
+          <a href="#method">MÉTODO</a>
+          <a href="#contact">CONTACTO</a>
         </div>
+
+        <img
+          alt="hamburguer-icon-menu"
+          class="menu-icon"
+          src="assets/icons/menu_black_24dp.svg"
+        />
+      </div>
     </nav>
-    <div class="hero">
-        <div class="is-desktop">
-            <p>Soluciones</p>
-            <p>digitales de Alto</p>
-            <p>impacto_</p>
-        </div>
-        <div class="is-mobile">
-            <img src="assets/img/altolabs-logo.png" alt="Alto Tech Labs" class="alto-logo">
-            <p>Soluciones digitales en procesos de la industria_</p>
-        </div>
+    <div class="hero" id="particles-js">
+      <div class="hero-title is-desktop">
+        <p>Soluciones</p>
+        <p>digitales de Alto</p>
+        <p>impacto<span id="toggle-line">_</span></p>
+      </div>
+      <div class="hero-title center is-mobile">
+        <img
+          src="assets/img/altolabs-logo.png"
+          class="lazyload alto-logo"
+          alt="Alto Tech Labs"
+        />
+        <p>
+          Soluciones digitales de Alto impacto<span id="toggle-line">_</span>
+        </p>
+      </div>
     </div>
-    <div class="dark-background-section" id="about">
-        <div class="info-section is-flex space-between">
+    <div class="dark-background section-container lazyload" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
             <div class="section-title">
-                <p>Acerca_</p>
-                <div class="border-bottom"></div>
+              <p>Somos<span id="toggle-line">_</span></p>
+              <div class="border-bottom"></div>
             </div>
+          </div>
+          <div class="col-12 col-md-6">
             <div class="description-section">
-                <p>
-                    En Alto Labs nos dedicamos a apoyar a las empresas a alcanzar sus objetivos de negocio a través de la innovación en los procesos por medio del diseño, desarrollo e implementación de soluciones digitales (SW) de alto impacto.
-                </p>
-                <p>
-                    Trabajamos con las principales tecnologías (web/mobile , cloud, data science y devops) de acuerdo a las necesidades de cada proyecto.
-                </p>
+              <p>
+                En Alto Labs nos dedicamos a apoyar a las empresas a alcanzar
+                sus objetivos de negocio a través de la innovación en los
+                procesos por medio del diseño, desarrollo e implementación de
+                soluciones digitales (SW) de alto impacto.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="white-background-section is-flex is-column-direction" id="experience">
-        <div class="info-section is-flex space-between">
+    <div class="white-background section-container" id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
             <div class="section-title">
-                <p>Experiencia_</p>
-                <div class="border-bottom"></div>
+              <p>Experiencia<span id="toggle-line">_</span></p>
+              <div class="border-bottom"></div>
             </div>
-            <div class="description-section white-description-background">
-                <p>
-                    En ALTO LABS hemos desarrollado proyectos tanto en iniciativa privada como gobierno; trabajado  para empresas nacionales y transnacionales en diferentes industrias.
-                </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="description-section no-border white-description-background"
+            >
+              <p>
+                Hemos desarrollado proyectos tanto en iniciativa privada como
+                gobierno; trabajado para empresas nacionales y transnacionales
+                en diferentes industrias.
+              </p>
             </div>
+          </div>
         </div>
-        <div class="icons">
-            <div class="icon">
-                <img src="assets/icons/chart.png" alt="Financiera"/>
-                <p>Financiera</p>
-            </div>
-            <div class="icon">
-                <img src="assets/icons/store.png" alt="Retail"/>
-                <p>Retail</p>
-            </div>
-            <div class="icon">
-                <img src="assets/icons/signal.png" alt="Telecomunicaciones"/>
-                <p>Telco</p>
-            </div>
-            <div class="icon">
-                <img src="assets/icons/circuit.png" alt="Tecnología"/>
-                <p>Tecnología</p>
-            </div>
+        <div class="row justify-content-center icons mt-4">
+          <div class="col-6 col-sm-3">
+            <img
+              class="lazyload"
+              src="assets/icons/chart.png"
+              alt="Financiera"
+            />
+            <p>Financiera</p>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img class="lazyload" src="assets/icons/store.png" alt="Retail" />
+            <p>Retail</p>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img
+              class="lazyload"
+              src="assets/icons/signal.png"
+              alt="Telecomunicaciones"
+            />
+            <p>Telco</p>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img
+              class="lazyload"
+              src="assets/icons/circuit.png"
+              alt="Tecnología"
+            />
+            <p>Tecnología</p>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="dark-background-section" id="team">
-        <div class="info-section is-flex space-between">
+    <div class="dark-background section-container" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col">
             <div class="section-title">
-                <p>Team_</p>
-                <div class="border-bottom"></div>
+              <p>Team<span id="toggle-line">_</span></p>
+              <div class="border-bottom"></div>
             </div>
-            <div class="is-flex is-column-direction description-section border-corner">
-                <p>
-                    Somos un equipo multidisciplinario especializado en:
-                </p>
-                <br><br>
-                <ul>
-                    <li>Estrategia</li>
-                    <li>Procesos</li>
-                    <li>Modelos de negocios</li>
-                    <li>Desarrollo Web/Movil</li>
-                    <li>Ecommerce</li>
-                    <li>Infraestructura</li>
-                    <li>Ingeniería de datos</li>
-                    <li>Diseño gráfico</li>
-                    <li>Marketing</li>
-                    <li>Comunicación estratégica</li>
-                </ul>
-            </div>
+          </div>
         </div>
-    </div>
-    <div class="screen-background" id="method">
-        <div class="info-section is-flex space-between">
-            <div class="section-title">
-                <p>Método</p>
-                <p>Alto Labs_</p>
-                <div class="border-bottom"></div>
-            </div>
-            <div class="steps">
-                <div class="step">
-                    <div class="number">
-                        <span>1</span>
-                    </div>
-                    <span>Análisis</span>
-                </div>
-                <div class="step">
-                    <div class="number">2</div>
-                    <span>Modelo conceptual</span>
-                </div>
-                <div class="step">
-                    <div class="number">3</div>
-                    <span>Desarrollo</span>
-                </div>
-                <div class="step">
-                    <div class="number">4</div>
-                    <span>Implementación</span>
-                </div>
-                <div class="step">
-                    <div class="number">5</div>
-                    <span>Soporte y seguimiento</span>
-                </div>
-            </div>
+        <div class="row team-img mt-5 justify-content-center">
+          <div class="col">
+            <picture>
+              <source
+                alt="d-foto"
+                class="lazyload"
+                data-srcset="assets/img/team-img/ALTO-FOTO-CV-C.webp"
+                type="image/webp"
+              />
+              <img
+                alt="d-foto"
+                class="lazyload"
+                data-src="assets/img/team-img/ALTO-FOTO-CV-C.png"
+                type="image/png"
+              />
+            </picture>
+          </div>
+          <div class="col">
+            <picture>
+              <source
+                alt="c-foto"
+                class="lazyload"
+                data-srcset="assets/img/team-img/ALTO-FOTO-CV-D.webp"
+                type="image/webp"
+              />
+              <img
+                alt="c-foto"
+                class="lazyload"
+                data-src="assets/img/team-img/ALTO-FOTO-CV-D.png"
+                type="image/png"
+              />
+            </picture>
+          </div>
+          <div class="col">
+            <picture>
+              <source
+                alt="b-foto"
+                class="lazyload"
+                data-srcset="assets/img/team-img/ALTO-FOTO-CV-R.webp"
+                type="image/webp"
+              />
+              <img
+                alt="b-foto"
+                class="lazyload"
+                data-src="assets/img/team-img/ALTO-FOTO-CV-R.png"
+                type="image/png"
+              />
+            </picture>
+          </div>
+          <div class="col">
+            <picture>
+              <source
+                alt="a-foto"
+                class="lazyload"
+                data-srcset="assets/img/team-img/ALTO-FOTO-CV.png"
+                type="image/webp"
+              />
+              <img
+                alt="a-foto"
+                class="lazyload"
+                data-src="assets/img/team-img/ALTO-FOTO-CV.png"
+                type="image/png"
+              />
+            </picture>
+          </div>
         </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 col-md-4">
+            <p>
+              Desarrollamos aplicaciones web y móviles a la medida. Trabajamos
+              con las principales tecnologías de acuerdo a las necesidades de
+              cada proyecto. Haciendo uso de tecnologías web/mobile , cloud,
+              data science y devops.
+            </p>
+            <p>Somos un equipo multidiciplinario especializado en:</p>
+          </div>
+          <div class="col-12 col-md-4 offset-md-3">
+            <ul>
+              <li>Estrategia</li>
+              <li class="mt-1">Procesos</li>
+              <li class="mt-1">Modelos de negocios</li>
+              <li class="mt-1">Desarrollo Web/Movil</li>
+              <li class="mt-1">Ecommerce</li>
+              <li class="mt-1">Infraestructura</li>
+              <li class="mt-1">Ingeniería de datos</li>
+              <li class="mt-1">Diseño gráfico</li>
+              <li class="mt-1">Marketing</li>
+              <li class="mt-1">Comunicación estratégica</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="contact-section is-flex" id="contact">
-        <div class="half contact-container">
+    <div class="screen-background section-container lazyload" id="method">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
             <div class="section-title">
-                <p>Contacto_</p>
-                <div class="border-bottom"></div>
+              <p>Método</p>
+              <p>Alto Labs<span id="toggle-line">_</span></p>
+              <div class="border-bottom"></div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="description-section trans-description-background">
+              <p>
+                A través del análisis obtenemos varios escenarios que ayudan a
+                los dueños de los procesos a elegir una solución que logre un
+                mayor impacto en el negocio, cuidando el presupuesto y la
+                escalabilidad.
+              </p>
+              <p>
+                Garantizamos una implementación adecuada por medios de
+                capacitación, soporte y aprendizaje disponibles para el
+                personal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-4 justify-content-center align-items-center">
+          <div class="col-sm-4 col-lg-2 step">
+            <div class="number">1</div>
+            <span class="mt-3">Análisis</span>
+          </div>
+          <div class="mt-4 mt-sm-0 col-sm-4 col-lg-2 step">
+            <div class="number">2</div>
+            <span class="mt-3">Conceptualización</span>
+          </div>
+          <div class="mt-4 mt-sm-0 col-sm-4 col-lg-2 step">
+            <div class="number">3</div>
+            <span class="mt-3">Desarrollo</span>
+          </div>
+          <div class="mt-4 mt-lg-0 col-sm-4 col-lg-2 step">
+            <div class="number">4</div>
+            <span class="mt-3">Implementación</span>
+          </div>
+          <div class="mt-4 mt-lg-0 col-sm-4 col-lg-2 step">
+            <div class="number">5</div>
+            <span class="mt-3">Seguimiento</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section section-container" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <div class="section-title">
+              <p>Contacto<span id="toggle-line">_</span></p>
+              <div class="border-bottom"></div>
             </div>
             <div class="is-flex is-column-direction contact-details">
-                <div class="is-desktop">
-                    <p>Contactanos</p>
-                    <p>info@altolabs.tech</p>
-                    <p>55.3228.8496</p>
+              <div>
+                <p>Contáctanos</p>
+                <p>info@altolabs.tech</p>
+                <p>55.3228.8496</p>
+              </div>
+              <div class="container">
+                <div class="row contact-icons">
+                  <a href="mailto:info@altolabs.tech">
+                    <img
+                      class="contact-icon lazyload"
+                      src="assets/icons/mail.png"
+                      alt="email"
+                    />
+                  </a>
+                  <a target="_blank" href="https://wa.me/525532288496">
+                    <img
+                      class="contact-icon lazyload"
+                      src="assets/icons/whatsapp.png"
+                      alt="whatsapp"
+                    />
+                  </a>
                 </div>
-                <div class="is-mobile">
-                    <span>¿Tienes una idea o solución a desarrollar?</span>
-                </div>
-                
-                <div class="is-flex contact-icons">
-                    <div class="contact-icon">
-                        <img src="assets/icons/mail.png" alt="email"/>
-                    </div>
-                    <div class="contact-icon">
-                        <img src="assets/icons/whatsapp.png" alt="whatsapp"/>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center">
+            <picture>
+              <source
+                class="phone lazyload"
+                srcset="assets/img/alto-phone.webp"
+                type="image/webp"
+              />
+              <img
+                alt="phone"
+                class="phone lazyload"
+                src="assets/img/alto-phone.png"
+                type="image/png"
+              />
+            </picture>
+          </div>
         </div>
-        <div class="half phone-container">
-            <img src="assets/img/alto-phone.png" class="phone"/>
-        </div>
+      </div>
     </div>
-    <script src="modernizr-custom.min.js"></script>
+    <script src="assets/libs/lazysizes.min.js" async></script>
+    <script src="assets/libs/particles.min.js"></script>
     <script src="script.min.js"></script>
-</body>
+    <script src="modernizr-custom.min.js"></script>
+  </body>
 </html>
