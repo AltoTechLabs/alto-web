@@ -369,6 +369,12 @@ nav.scrolled {
   }
 }
 
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 2.4rem;
+  }
+}
+
 @keyframes border-animate {
   0% {
     border-top-color: transparent;
